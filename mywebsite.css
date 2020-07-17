@@ -94,10 +94,11 @@ html{
 .centerimg{
     background-image: url("portrait.jpg");
     background-size: contain;
+    background-repeat: no-repeat;
     position: relative;
     height: 450px;
     width: 350px;
-    left: 590px;
+/*     left: 590px; */
     top: 150px;
 }
 
@@ -166,13 +167,15 @@ html{
     color: black
 }
 
-
+.aboutme1{
+    grid-column: 5/7;
+}
 
 .about-me{
     font-size: 30px;
     font-family: Helvetica, Arial, sans-serif;
     position: relative;
-    left: 875px;
+/*     left: 875px; */
     white-space: nowrap;
     text-decoration: underline;
     grid-row: 1/2;
@@ -222,6 +225,8 @@ img {vertical-align: middle;} */
     margin-top: 220px;
     margin-left: 120px;
     text-align: center;
+    align-items; center; 
+    grid-column: 2/4;
 }
 
 .fade-slide{
@@ -387,6 +392,7 @@ img {vertical-align: middle;} */
 
 .contactme {
     margin-top: 100px;
+    grid-column: 6/8;
 }
 
 .contacts{
