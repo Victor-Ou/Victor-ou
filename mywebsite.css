@@ -1,6 +1,6 @@
 html{
     background-color: black;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 .wrapper{
     display: grid;
