@@ -233,9 +233,11 @@ html{
 * {box-sizing:border-box}
 
 
-.slideshow-container { 
-    width: 51vw;
-    height: 53vh;
+.slideshow-container {
+    width: 1000px;
+    height: 500px;
+/*     width: 51vw; */
+/*     height: 53vh; */
     position: relative;
     margin-top: 25vh;
     align-items: center;
