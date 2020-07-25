@@ -303,7 +303,8 @@ html{
 } */
 
 .next{
-    margin-left: 27vw;
+    margin-right: -27vw;
+/*     margin-left: 27vw; */
 /*     margin-left: 525px; */
 
 }
