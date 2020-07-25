@@ -234,10 +234,10 @@ html{
 
 
 .slideshow-container {
-    width: 50vw;
-    height: 51vh; 
-    /* width: 1000px;
-    height: 500px; */
+    width: 1000px;
+    height: 500px;
+/*     width: 50vw; */
+/*     height: 51vh;  */
     position: relative;
     margin-top: 25vh;
     text-align: center;
