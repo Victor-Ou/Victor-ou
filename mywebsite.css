@@ -303,15 +303,15 @@ html{
 } */
 
 .next{
-    left: 670px;
+/*     left: 670px; */
 /*     margin-left: 27vw; */
-/*     margin-left: 525px; */
+    margin-left: 525px;
 
 }
 
 .previous{
-    margin-left: -28.5vw;
-    /* margin-left: -576px; */
+/*     margin-left: -28.5vw; */
+    margin-left: -576px;
 
 }
 
