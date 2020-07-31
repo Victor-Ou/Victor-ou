@@ -198,7 +198,8 @@ html{
 
 
 .me{
-    font-size: 18px;
+    font-size: 1vw;
+/*     font-size: 18px; */
     font-family: Helvetica, Arial, sans-serif;
     position: relative;
     /* right: 100px; */
