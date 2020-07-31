@@ -374,7 +374,8 @@ html{
 }
 
 .contacts{
-    font-size: 40px;
+    font-size: 2vw;
+/*     font-size: 40px; */
     font-family: Helvetica, Arial, sans-serif;
     position: relative;
     left: 3vw;
@@ -390,9 +391,11 @@ html{
 .wrapper3{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-column-gap: 30px;
+/*     grid-column-gap: 30px; */
+    grid-column-gap: 2vw;
     grid-template-rows: repeat(1, 1fr);
-    grid-row-gap: 30px;
+/*     grid-row-gap: 30px; */
+    grid-row-gap: 10vh;
     width: 100%;
     margin: auto;
 }
