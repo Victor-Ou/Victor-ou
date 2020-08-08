@@ -37,7 +37,7 @@ html{
 
 .head{
     background-image: url("practicebackground.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
