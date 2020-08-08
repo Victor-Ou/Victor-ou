@@ -167,16 +167,11 @@ html{
     color: black
 }
 
-/* .my-description{
-    align-items: center;
-    text-align: center;
-    display: flex;
-} */
-
-/* .aboutme1{
-    align-items: center;
-    text-align: center;
-} */
+.my-description{
+    background-image: url(reverse.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
 
 .about-me{
     font-size: 30px;
@@ -210,6 +205,9 @@ html{
 }
 
 .projects-reports{
+    background-image: url(practicebackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     align-items: center; 
     text-align: center;
 }
