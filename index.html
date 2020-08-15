@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="mywebsite.css" type="text/css">
     <script src="https://kit.fontawesome.com/7c5a52c21d.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <header class= "head" id = "home">
+<body style="margin: 0;">
+    <section class= "head" id = "home">
         <nav class ="wrapper">
             <div class = "topnav" id = "mytopnav">
                 <a>Victor Ou</a>
@@ -24,12 +24,12 @@
                     <div class="centertext">
                         <h1 class="welcome">Hey, I'm Victor Ou!</h1>
                         <div class ="intro">
-                            <p style="margin-left: -100px;">
+                            <!-- <p style="margin-left: -100px;">
                                 COO of <a class="ascend" href = "https://www.i-ascend.com/" target="_blank" >iAscend Canada </a> | Sophomore Business Canadidate at Wilfrid Laurier University
-                            </p>
-                            <!-- <p>
-                                I am a tenacious learner that loves to explore new subjects.
                             </p> -->
+                            <p>
+                                I am a tenacious learner that loves to explore new subjects.
+                            </p>
                             <a class="aboutbtn" href ="#about"> 
                                 Click For More About Me
                             </a>
@@ -38,24 +38,23 @@
                 <!-- </div> -->
             </div>
         </div>
-    </header>
+    </section>
     <section class="my-description" id="about">
         <div class = "wrapper1">
             <div class = "aboutme1">
                 <h1 class="about-me">About Me</h1>
                 <div class = "centerimg">
                 <div class ="me">
-                    <p>I'm a tenacious learner and go-getter that <br>has the proclivity to change the
-                        world. <br> Within the business field, I have taken an <br> interest in the finance sector,
-                        especially <br>equity analysis.
-                    </p> 
+                    <p>I'm currently a business student studying at Wilfrid Laurier University and I have a keen interest in finance, particularly equity analysis.<br>
+                        Aside from finance, I am also an executive member of iAscend which is a student-led, non-profit organization whose aim is to provide <br> all students with 
+                        with opportunities as well as aid them in their academic pursuits.</p> 
                     <p>
-                        Other than business, I am also interested in <br> computer programming and UX/UI design.<br>The languages that I use are:  
-                        Python and <br> HTML/CSS/JS. I hone these skills through <br> purposeful experiences such as hackathons <br> or building 
+                        Other than business, I am also interested in computer programming and UX/UI design. The languages that I am familiar with are:  
+                        Python and <br> HTML/CSS/JS. I hone these skills through purposeful experiences such as hackathons or building 
                         mini projects.
                     </p>
                     <p>
-                        In my free time, I indulge myself in a <br> book, TV show, or am spending time with friends. <br>
+                        In my free time, I indulge myself in a  book, TV show, or am spending time with friends. 
                         I also love to exercise through weightlifting <br>or playing badminton.
                     </p>
                 </div>
@@ -68,59 +67,41 @@
             <div class="project1">
                 <h1 class="projects">Projects and Reports</h1>
             </div>
-            <div class="slideshow-container" style="margin-left: 6vw;">
-                <div class="fade-slide fade">
+            <div class="project-container">
+                <div class="digit-container">
                     <a href = "https://github.com/Victor-Ou/Digit-Recognition" target="_blank">
-                        <img src="digitrec.jpg" style="height: 50vh; width: 51vw;">
-                        <!-- <img src="digitrec.jpg" style="width: 100%">   -->
+                        <img src="digitrec.jpg" style="height: 25vh; width: 25vw; border: 4px solid black;">
                     </a>
-                    <div class="text">Digit Recognizer</div> 
-                </div>
-                <div class="fade-slide fade">
+                    <div class="text">Digit Recognizer</div>
+                </div> 
+                <div class="vortex">
                     <a href = "https://github.com/Victor-Ou/Vortex" target="_blank">
-                        <img src="vortex.jpg" style="height: 50vh; width: 51vw;">
-                        <!-- <img src="Vortex.jpg" style="width: 100%"> -->
+                        <img src="Vortex.jpg" style="height: 25vh; width: 25vw; border: 4px solid black;">
                     </a>
                     <div class="text">Vortex: 3D Web Design</div>
-                </div>
-                <a class="previous" onclick="plusSlides(-1,0)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1,0)">&#10095;</a>
+                </div>   
             </div>
-            <br>
-            <!-- <div class="dot-wrap">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-            </div> -->
-            </div>
-            <div class="slideshow-container" style="margin-left: 24vw; margin-bottom: 10vh;">
-                <div class="fade-slide1 fade1">
+            <div class="report-container">
+                <div class="fl-container">
                     <a href = "FL.pdf" target = "_blank">
-                        <img src="FootLocker.jpg" style="height: 50vh; width: 51vw;">
-                        <!-- <img src="AirCanada.jpg" style="width: 100%"> -->
+                        <img src="FootLocker.jpg" style="height: 25vh; width: 25vw; border: 4px solid black;">
                     </a>
                     <div class="text">Foot Locker Equity Report</div>
                 </div>
-                <div class="fade-slide1 fade1">
-                    <a href = "AirCanada.pdf" target="_blank">
-                        <img src="AirCanada.jpg" style="height: 50vh; width: 51vw;">
-                        <!-- <img src="AirCanada.jpg" style="width: 100%"> -->
+                <div class="ac-container">
+                    <a href = "AC.pdf" target="_blank">
+                        <img src="AirCanada.jpg" style="height: 25vh; width: 25vw; border: 4px solid black;">
                     </a>
                     <div class="text">Air Canada Equity Report</div>
                 </div>
-                <a class="previous" onclick="plusSlides(-1, 1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
-            </div>
-            <br>
-            <!-- <div class="dot-wrap1">
-                <span class="dot1" onclick="currentSlide(1)"></span>
-                <span class="dot1" onclick="currentSlide(2)"></span>
-            </div> -->
+            </div>    
         </div>
+        </div>    
     </section>
     <footer class="contactme" id="contact">
         <div class = "wrapper3">
             <div id="contact">
-                <hr width = "253.5%" style="margin-bottom: 120px">
+                <!-- <hr width = "253.5%" style="margin-bottom: 10vh"> -->
                 <h1 class="contacts">Interested in what I'm doing or learning?<br>
                     Let's chat! I would love to work with you!
                 </h1>
@@ -128,13 +109,13 @@
             <div class = "wrapper3">
                 <div class="contactrow">
                     <a href="https://github.com/Victor-Ou" class="github" target="_blank">
-                        <i class='fab fa-github' style='font-size:48px;color:white' aria-hidden="true"></i>
+                        <i class='fab fa-github' style='font-size:48px;color:black' aria-hidden="true"></i>
                     </a>
                     <a href="https://www.linkedin.com/in/victor-ou-69066818a/" target="_blank" class="linkedin">
-                        <i class='fab fa-linkedin-in' style='font-size:48px;color:white' aria-hidden="true"></i>   
+                        <i class='fab fa-linkedin-in' style='font-size:48px;color:black' aria-hidden="true"></i>   
                     </a>
                     <a href="mailto:victorou2001@gmail.com" class="email">
-                        <i class="fa fa-envelope" style='font-size:48px;color:white' aria-hidden="true"></i>
+                        <i class="fa fa-envelope" style='font-size:48px;color:black' aria-hidden="true"></i>
                     </a>
                 </div>
             </div>
@@ -176,3 +157,4 @@ function showSlides(n, no) {
 </script>    
 </body>
 </html>
+
