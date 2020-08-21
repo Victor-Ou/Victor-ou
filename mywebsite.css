@@ -135,7 +135,7 @@ html{
     /* color: 	rgb(163, 195, 255); */
     color:  rgb(163, 195, 255);
     align-items: center;
-    right: 6vw;
+    right: 5vw;
     /* right: 105px; */
     /* font-size: 60px; */
     font-size: 3vw;
@@ -147,7 +147,7 @@ html{
     /* font-family: Helvetica, Arial, sans-serif; */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position: relative;
-    right: 7vw;
+    right: 6vw;
     white-space: nowrap;
     color:  rgb(206, 204, 204);
     top: 1vh;
@@ -158,14 +158,12 @@ html{
     color: rgb(163, 195, 255);
     /* background-color:rgb(163, 195, 255); */
     border: 2px solid  rgb(163, 195, 255);
-    padding: 20px 80px;
+    padding: 1vw 2vh;
     position: relative;
     overflow: hidden;
     cursor: pointer;
     transition: all 0.5s ease-in-out;
-    /* left: 76px; */
     left: 4vw;
-    /* top: 50px;  */
     top: 6vh;
 
 }
