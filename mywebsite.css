@@ -249,6 +249,7 @@ html{
     margin-bottom: 15vh;
     /* margin-left: -1025px; */
     margin-left: -53.5vw;
+    cursor: pointer;
 }
 
 .digit-container {
